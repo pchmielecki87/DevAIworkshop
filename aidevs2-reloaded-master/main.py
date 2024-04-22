@@ -19,6 +19,9 @@ knowledge = __import__('14_knowledge')
 tools = __import__('15_tools')
 gnome = __import__('16_gnome')
 ownapi = __import__('17_ownapi')
+ownapipro = __import__('18_ownapipro')
+meme = __import__('19_meme')
+optimaldb = __import__('20_optimaldb')
 ###
 
 
@@ -27,6 +30,6 @@ load_dotenv()
 
 
 # Run tasks
-search.search()
-# people.people()
-# ownapi.ownapi()
+# ownapi.ownapi()           # webhook w make.com
+# ownapipro.ownapipro()     # webhook w make.com
+meme.meme()
